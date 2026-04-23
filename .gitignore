@@ -1,0 +1,5 @@
+# 排除 hub 文件夹
+ObtainFeature/code/hub/
+
+# 排除整个 MainExperiments 文件夹
+MainExperiments/
