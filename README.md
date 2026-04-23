@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 
-<img src="assets/image-20260423205201616.png" alt="image-20260423205201616" style="zoom: 80%;" />
+<img src="DDVAR.png" alt="image-2026DDVAR0423205201616" style="zoom: 80%;" />
 
 **DDVAR** is a multimodal difference-aware framework for prioritizing potentially druggable variants.  It integrates **sequence**, **secondary structure (DSSP)**, **3D structural**, and **evolutionary (PSSM)** features within a unified **sequence–graph architecture**, while explicitly modeling the differences between **wild-type** and **mutant** proteins.
 
