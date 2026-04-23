@@ -1,0 +1,121 @@
+mode: train	model_dir: ../out/save_model/run_20260330-1020/	pos_dataset: Testset	neg_dataset: Testset	mul: 1	e: 12	bs: 8	lr: 0.0001	loss: BCEloss	threshold: 10	relative_path: ../../ObtainFeature/out	seed: 42	seed: 42
+mode: train	model_dir: ../out/save_model/run_20260330-1020/	pos_dataset: Testset	neg_dataset: Testset	mul: 1	e: 12	bs: 8	lr: 0.0001	loss: BCEloss	threshold: 10	relative_path: ../../ObtainFeature/out	seed: 42	seed: 42
+INFO:root:第1折    训练周期: 0 [0/48 (0%)]   训练Loss: 0.648836   训练正确率: 87.50%
+INFO:root:第1折    训练周期: 1 [0/48 (0%)]   训练Loss: 0.645246   训练正确率: 87.50%
+INFO:root:第1折    训练周期: 2 [0/48 (0%)]   训练Loss: 0.713251   训练正确率: 37.50%
+INFO:root:第1折    训练周期: 3 [0/48 (0%)]   训练Loss: 0.699921   训练正确率: 50.00%
+INFO:root:第1折    训练周期: 4 [0/48 (0%)]   训练Loss: 0.679224   训练正确率: 62.50%
+INFO:root:第1折    训练周期: 5 [0/48 (0%)]   训练Loss: 0.662039   训练正确率: 75.00%
+INFO:root:第1折    训练周期: 6 [0/48 (0%)]   训练Loss: 0.713520   训练正确率: 37.50%
+INFO:root:第1折    训练周期: 7 [0/48 (0%)]   训练Loss: 0.681024   训练正确率: 50.00%
+INFO:root:第1折    训练周期: 8 [0/48 (0%)]   训练Loss: 0.712497   训练正确率: 25.00%
+INFO:root:第1折    训练周期: 9 [0/48 (0%)]   训练Loss: 0.701984   训练正确率: 37.50%
+INFO:root:第1折    训练周期: 10 [0/48 (0%)]   训练Loss: 0.691284   训练正确率: 37.50%
+INFO:root:第1折    训练周期: 11 [0/48 (0%)]   训练Loss: 0.684574   训练正确率: 75.00%
+INFO:root:验证集: auroc=0.5000, auprc=0.5000, f1_score=0.2500
+INFO:root:best model update!
+INFO:root:第2折    训练周期: 0 [0/48 (0%)]   训练Loss: 0.695317   训练正确率: 37.50%
+INFO:root:第2折    训练周期: 1 [0/48 (0%)]   训练Loss: 0.652325   训练正确率: 75.00%
+INFO:root:第2折    训练周期: 2 [0/48 (0%)]   训练Loss: 0.686116   训练正确率: 62.50%
+INFO:root:第2折    训练周期: 3 [0/48 (0%)]   训练Loss: 0.653232   训练正确率: 75.00%
+INFO:root:第2折    训练周期: 4 [0/48 (0%)]   训练Loss: 0.714966   训练正确率: 25.00%
+INFO:root:第2折    训练周期: 5 [0/48 (0%)]   训练Loss: 0.706759   训练正确率: 50.00%
+INFO:root:第2折    训练周期: 6 [0/48 (0%)]   训练Loss: 0.711209   训练正确率: 50.00%
+INFO:root:第2折    训练周期: 7 [0/48 (0%)]   训练Loss: 0.700462   训练正确率: 50.00%
+INFO:root:第2折    训练周期: 8 [0/48 (0%)]   训练Loss: 0.691645   训练正确率: 50.00%
+INFO:root:第2折    训练周期: 9 [0/48 (0%)]   训练Loss: 0.665262   训练正确率: 75.00%
+INFO:root:第2折    训练周期: 10 [0/48 (0%)]   训练Loss: 0.684673   训练正确率: 50.00%
+INFO:root:第2折    训练周期: 11 [0/48 (0%)]   训练Loss: 0.703912   训练正确率: 50.00%
+INFO:root:验证集: auroc=0.4861, auprc=0.5000, f1_score=0.0000
+INFO:root:第3折    训练周期: 0 [0/48 (0%)]   训练Loss: 0.659084   训练正确率: 75.00%
+INFO:root:第3折    训练周期: 1 [0/48 (0%)]   训练Loss: 0.698103   训练正确率: 62.50%
+INFO:root:第3折    训练周期: 2 [0/48 (0%)]   训练Loss: 0.645147   训练正确率: 75.00%
+INFO:root:第3折    训练周期: 3 [0/48 (0%)]   训练Loss: 0.732208   训练正确率: 25.00%
+INFO:root:第3折    训练周期: 4 [0/48 (0%)]   训练Loss: 0.694750   训练正确率: 62.50%
+INFO:root:第3折    训练周期: 5 [0/48 (0%)]   训练Loss: 0.719845   训练正确率: 37.50%
+INFO:root:第3折    训练周期: 6 [0/48 (0%)]   训练Loss: 0.695353   训练正确率: 50.00%
+INFO:root:第3折    训练周期: 7 [0/48 (0%)]   训练Loss: 0.678016   训练正确率: 75.00%
+INFO:root:第3折    训练周期: 8 [0/48 (0%)]   训练Loss: 0.698664   训练正确率: 50.00%
+INFO:root:第3折    训练周期: 9 [0/48 (0%)]   训练Loss: 0.665190   训练正确率: 62.50%
+INFO:root:第3折    训练周期: 10 [0/48 (0%)]   训练Loss: 0.703550   训练正确率: 37.50%
+INFO:root:第3折    训练周期: 11 [0/48 (0%)]   训练Loss: 0.691138   训练正确率: 50.00%
+INFO:root:验证集: auroc=0.5000, auprc=0.5000, f1_score=0.5000
+INFO:root:第4折    训练周期: 0 [0/48 (0%)]   训练Loss: 0.694917   训练正确率: 50.00%
+INFO:root:第4折    训练周期: 1 [0/48 (0%)]   训练Loss: 0.699723   训练正确率: 50.00%
+INFO:root:第4折    训练周期: 2 [0/48 (0%)]   训练Loss: 0.711156   训练正确率: 37.50%
+INFO:root:第4折    训练周期: 3 [0/48 (0%)]   训练Loss: 0.702220   训练正确率: 50.00%
+INFO:root:第4折    训练周期: 4 [0/48 (0%)]   训练Loss: 0.693393   训练正确率: 50.00%
+INFO:root:第4折    训练周期: 5 [0/48 (0%)]   训练Loss: 0.709103   训练正确率: 25.00%
+INFO:root:第4折    训练周期: 6 [0/48 (0%)]   训练Loss: 0.694846   训练正确率: 50.00%
+INFO:root:第4折    训练周期: 7 [0/48 (0%)]   训练Loss: 0.680732   训练正确率: 37.50%
+INFO:root:第4折    训练周期: 8 [0/48 (0%)]   训练Loss: 0.661001   训练正确率: 75.00%
+INFO:root:第4折    训练周期: 9 [0/48 (0%)]   训练Loss: 0.691939   训练正确率: 62.50%
+INFO:root:第4折    训练周期: 10 [0/48 (0%)]   训练Loss: 0.676463   训练正确率: 62.50%
+INFO:root:第4折    训练周期: 11 [0/48 (0%)]   训练Loss: 0.676403   训练正确率: 75.00%
+INFO:root:验证集: auroc=0.4861, auprc=0.5000, f1_score=0.6250
+INFO:root:第5折    训练周期: 0 [0/48 (0%)]   训练Loss: 0.661019   训练正确率: 75.00%
+INFO:root:第5折    训练周期: 1 [0/48 (0%)]   训练Loss: 0.693685   训练正确率: 62.50%
+INFO:root:第5折    训练周期: 2 [0/48 (0%)]   训练Loss: 0.689505   训练正确率: 37.50%
+INFO:root:第5折    训练周期: 3 [0/48 (0%)]   训练Loss: 0.665876   训练正确率: 75.00%
+INFO:root:第5折    训练周期: 4 [0/48 (0%)]   训练Loss: 0.695579   训练正确率: 62.50%
+INFO:root:第5折    训练周期: 5 [0/48 (0%)]   训练Loss: 0.676985   训练正确率: 75.00%
+INFO:root:第5折    训练周期: 6 [0/48 (0%)]   训练Loss: 0.673280   训练正确率: 75.00%
+INFO:root:第5折    训练周期: 7 [0/48 (0%)]   训练Loss: 0.693936   训练正确率: 62.50%
+INFO:root:第5折    训练周期: 8 [0/48 (0%)]   训练Loss: 0.703559   训练正确率: 50.00%
+INFO:root:第5折    训练周期: 9 [0/48 (0%)]   训练Loss: 0.714186   训练正确率: 50.00%
+INFO:root:第5折    训练周期: 10 [0/48 (0%)]   训练Loss: 0.705086   训练正确率: 50.00%
+INFO:root:第5折    训练周期: 11 [0/48 (0%)]   训练Loss: 0.693341   训练正确率: 37.50%
+INFO:root:验证集: auroc=0.4861, auprc=0.5000, f1_score=0.6250
+INFO:root:Model(
+  (emb_dssp_ref): Embedding(9, 24)
+  (emb_dssp_alt): Embedding(9, 24)
+  (emb_asseq_ref): Embedding(21, 48)
+  (emb_asseq_alt): Embedding(21, 48)
+  (gat1): GAT(
+    (gat1): GATv2Conv(480, 128, heads=4)
+    (relu): LeakyReLU(negative_slope=0.01)
+    (bn1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (gat2): GATv2Conv(512, 128, heads=4)
+    (bn2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (gat2): GAT(
+    (gat1): GATv2Conv(480, 128, heads=4)
+    (relu): LeakyReLU(negative_slope=0.01)
+    (bn1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (gat2): GATv2Conv(512, 128, heads=4)
+    (bn2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (attn1): Attention(
+    (attn): MultiheadAttention(
+      (out_proj): NonDynamicallyQuantizableLinear(in_features=112, out_features=112, bias=True)
+    )
+    (layernorm): LayerNorm((112,), eps=1e-05, elementwise_affine=True)
+  )
+  (attn1_2): Attention(
+    (attn): MultiheadAttention(
+      (out_proj): NonDynamicallyQuantizableLinear(in_features=112, out_features=112, bias=True)
+    )
+    (layernorm): LayerNorm((112,), eps=1e-05, elementwise_affine=True)
+  )
+  (attn2): Attention(
+    (attn): MultiheadAttention(
+      (out_proj): NonDynamicallyQuantizableLinear(in_features=112, out_features=112, bias=True)
+    )
+    (layernorm): LayerNorm((112,), eps=1e-05, elementwise_affine=True)
+  )
+  (attn2_2): Attention(
+    (attn): MultiheadAttention(
+      (out_proj): NonDynamicallyQuantizableLinear(in_features=112, out_features=112, bias=True)
+    )
+    (layernorm): LayerNorm((112,), eps=1e-05, elementwise_affine=True)
+  )
+  (dropout): Dropout(p=0.25, inplace=False)
+  (fc1): Linear(in_features=960, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+  (relu): LeakyReLU(negative_slope=0.01)
+)
+INFO:root:K fold Result:
+Mean AUROC=0.4917
+Mean AUPRC=0.5000
+Mean F1=4.0000e-01
+INFO:root:0.4916	0.5	0.4

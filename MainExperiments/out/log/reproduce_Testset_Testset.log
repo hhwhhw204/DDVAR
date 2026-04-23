@@ -1,0 +1,59 @@
+mode: reproduce	model_dir: ../out/save_model/run_20260330-1020/	pos_dataset: Testset	neg_dataset: Testset	mul: 1	e: 12	bs: 8	lr: 0.0001	loss: BCEloss	threshold: 10	relative_path: ../../ObtainFeature/out	seed: 42	seed: 42
+INFO:root:Fold 1 (Reproduce): auroc=0.9666, auprc=0.9485, f1_score=0.9056
+INFO:root:Fold 2 (Reproduce): auroc=0.9584, auprc=0.9496, f1_score=0.8988
+INFO:root:Fold 3 (Reproduce): auroc=0.9652, auprc=0.9527, f1_score=0.9014
+INFO:root:Fold 4 (Reproduce): auroc=0.9638, auprc=0.9549, f1_score=0.8950
+INFO:root:Fold 5 (Reproduce): auroc=0.9599, auprc=0.9535, f1_score=0.8815
+INFO:root:Model(
+  (emb_dssp_ref): Embedding(9, 24)
+  (emb_dssp_alt): Embedding(9, 24)
+  (emb_asseq_ref): Embedding(21, 48)
+  (emb_asseq_alt): Embedding(21, 48)
+  (gat1): GAT(
+    (gat1): GATv2Conv(480, 128, heads=4)
+    (relu): LeakyReLU(negative_slope=0.01)
+    (bn1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (gat2): GATv2Conv(512, 128, heads=4)
+    (bn2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (gat2): GAT(
+    (gat1): GATv2Conv(480, 128, heads=4)
+    (relu): LeakyReLU(negative_slope=0.01)
+    (bn1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (gat2): GATv2Conv(512, 128, heads=4)
+    (bn2): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  )
+  (attn1): Attention(
+    (attn): MultiheadAttention(
+      (out_proj): NonDynamicallyQuantizableLinear(in_features=112, out_features=112, bias=True)
+    )
+    (layernorm): LayerNorm((112,), eps=1e-05, elementwise_affine=True)
+  )
+  (attn1_2): Attention(
+    (attn): MultiheadAttention(
+      (out_proj): NonDynamicallyQuantizableLinear(in_features=112, out_features=112, bias=True)
+    )
+    (layernorm): LayerNorm((112,), eps=1e-05, elementwise_affine=True)
+  )
+  (attn2): Attention(
+    (attn): MultiheadAttention(
+      (out_proj): NonDynamicallyQuantizableLinear(in_features=112, out_features=112, bias=True)
+    )
+    (layernorm): LayerNorm((112,), eps=1e-05, elementwise_affine=True)
+  )
+  (attn2_2): Attention(
+    (attn): MultiheadAttention(
+      (out_proj): NonDynamicallyQuantizableLinear(in_features=112, out_features=112, bias=True)
+    )
+    (layernorm): LayerNorm((112,), eps=1e-05, elementwise_affine=True)
+  )
+  (dropout): Dropout(p=0.25, inplace=False)
+  (fc1): Linear(in_features=960, out_features=32, bias=True)
+  (fc2): Linear(in_features=32, out_features=1, bias=True)
+  (relu): LeakyReLU(negative_slope=0.01)
+)
+INFO:root:K fold Result:
+Mean AUROC=0.9628
+Mean AUPRC=0.9518
+Mean F1=8.9645e-01
+INFO:root:0.9627	0.9518	0.8964
